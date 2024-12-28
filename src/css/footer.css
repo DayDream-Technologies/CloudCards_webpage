@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Footer styling */
 footer {
     font-family: Arial, serif;
@@ -5,32 +11,33 @@ footer {
     grid-template-columns: auto 1fr;
     justify-items: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Opaque dark grey background */
+    background-color: #222222;
     width: 100%;
     padding: 30px;
     color: white;
     margin-top: auto;
-    gap: 20px; /* Adds spacing between the logo and text */
+    z-index: 2;
 }
 
 /* Paragraph styling */
 footer p {
     font-size: 1.1em;
     margin: 0; /* Removes any default margin for better alignment */
-    color: lightgrey; /* Ensures text uses light grey color */
-    z-index: 10; /* Places the footer above other elements */
+}
+
+.comp_linkdn {
+    overflow: hidden;
 }
 
 /* Image styling */
-.linkdn {
+.comp_linkdn, .linkdn {
     width: 40px;
     height: 40px;
     border-radius: 5px; /* Slightly rounded edges */
     transition: transform 0.2s; /* Adds hover effect */
-    padding-left: 2vw;
 }
 
 /* Hover effect for the LinkedIn logo */
-.linkdn:hover {
+.comp_linkdn:hover, .linkdn:hover {
     transform: scale(1.1); /* Slight zoom-in on hover */
 }
