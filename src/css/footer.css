@@ -37,6 +37,7 @@ footer p {
     transition: transform 0.2s; /* Adds hover effect */
 }
 
+
 /* Hover effect for the LinkedIn logo */
 .comp_linkdn:hover, .linkdn:hover {
     transform: scale(1.1); /* Slight zoom-in on hover */
