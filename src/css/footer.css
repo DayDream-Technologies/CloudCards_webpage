@@ -22,13 +22,18 @@ footer p {
 }
 
 /* Image styling */
+
 .linkdn {
     width: 40px;
     height: 40px;
     border-radius: 5px; /* Slightly rounded edges */
     transition: transform 0.2s; /* Adds hover effect */
-    padding-left: 2vw;
+    background-color: #F7A947; /* Match the orange box color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 /* Hover effect for the LinkedIn logo */
 .linkdn:hover {
