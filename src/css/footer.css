@@ -22,18 +22,17 @@ footer p {
 }
 
 /* Image styling */
-
 .linkdn {
-    width: 40px;
-    height: 40px;
-    border-radius: 5px; /* Slightly rounded edges */
-    transition: transform 0.2s; /* Adds hover effect */
-    background-color: #F7A947; /* Match the orange box color */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 5px; /* Adjust this value to bring it slightly to the right */
+    width: 35px; /* Adjusted to match main branch size */
+    height: 35px; /* Adjusted to match main branch size */
+    border-radius: 5px; /* Keep this consistent for rounded corners */
+    transition: transform 0.2s; /* Keeps hover effect */
+    background-color: #F7A947; /* Ensure this matches the orange */
+    position: absolute; /* Position relative to the parent */
+    bottom: 10px; /* Adjust to align vertically */
+    right: 15px; /* Adjust to align horizontally */
 }
+
 
 /* Hover effect for the LinkedIn logo */
 .linkdn:hover {
