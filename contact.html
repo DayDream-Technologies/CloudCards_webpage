@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./src/css/cards.css" />
     <link rel="stylesheet" href="./src/css/navbar.css" />
     <link rel="stylesheet" href="./src/css/footer.css" />
-    <!--<script src="./src/js/main.js" defer></script>-->
+    <link rel="stylesheet" href="./src/css/contact.css" />
+    <script src="./src/js/main.js" defer></script>
     <link rel="icon" href="./src/images/favicon.ico" />
 </head>
 
@@ -22,14 +23,36 @@
         </ul>
     </nav>
 
-    <main class="cards-grid">
+    <main class="contact-page"><br>
         <div>
-            <h1>Contact the Dream Card team</h1><br>
-            <p>We would love to hear your product inquiries, ideas, and customization requests.</p><br>
+            <h1>Contact Us</h1><br>
+            <p>Any question or remarks? Just write us a message!</p><br><br>
         </div>
-        <img class="cards_img"
-        src="./src/images/cards-img.png"
-        alt="Cloud Cards" />
+        <div class="contact-container">
+            <!-- Contact Form Section -->
+            <!-- From Uiverse.io by gharsh11032000 -->
+            <!-- Here is the link; https://uiverse.io/gharsh11032000/bitter-cow-59 -->
+            <div class="form-container">
+                <form class="form" action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="1c08ef3f-0c0b-4032-9651-9429777fb0ac">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">How Can We Help You?</label>
+                        <textarea name="textarea" id="textarea" rows="10" cols="50" required=""></textarea>
+                    </div>
+                    <button class="form-submit-btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <a class="comp_linkdn" target="_blank" href="https://www.linkedin.com/company/daydream-technologies/">
