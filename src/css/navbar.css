@@ -18,6 +18,7 @@ nav {
     grid-template-rows: 75px;
     align-items: center;
     list-style-type: none;
+    overflow: hidden;
 }
 
 .nav_links {
